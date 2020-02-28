@@ -11,15 +11,11 @@ public class Customer {
     private String email;
     private String address;
     // TODO: 1 - write proper getters and setters for this class' fields
-    // TODO: 2 - write proper constructors
+    // TODO: 2 - write proper constructors - a no args constructor is required
     // TODO: 3 - the input given in the written setters should be validated
     // using the Validator class, if the input is not valid then it should
     // not be set.
 
-    public Customer(){}
-
-    public Customer(int x,int z){
-
-    }
+    
 
 }

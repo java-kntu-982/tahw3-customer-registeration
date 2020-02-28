@@ -15,6 +15,9 @@ public class Customer {
     // TODO: 3 - the input given in the written setters should be validated
     // using the Validator class, if the input is not valid then it should
     // not be set.
+
+    public Customer(){}
+
     public Customer(int x,int z){
 
     }

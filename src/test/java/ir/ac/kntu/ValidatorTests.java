@@ -32,7 +32,7 @@ public class ValidatorTests {
     @Test
     public void testCheckName3(){
         String name = "GREETINGS";
-        Assertions.assertFalse(Validator.checkName(name),
+        Assertions.assertTrue(Validator.checkName(name),
                 "wrong method implementation - name is valid");
     }
 
